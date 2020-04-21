@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arrugginito" >
+
+    <TextView
+        android:id="@+id/textCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="8pt" >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/link_uni2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCredits"
+        android:src="@drawable/romatre_logo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/link_uni"
+        android:autoLink="web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/link_uni2"
+        android:gravity="center_horizontal"
+        android:background="#00000000"
+        android:text="www.uniroma3.it"
+        android:textColor="#dc0808"
+        android:textSize="8pt" />
+    
+      <TextView
+        android:id="@+id/version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:background="#00000000"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="11sp" 
+        
+        />
+      
+
+</RelativeLayout>

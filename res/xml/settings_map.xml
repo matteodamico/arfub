@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com" >
+
+    <PreferenceCategory android:title="Impostazioni Generali" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="GPS"
+            android:summary="@string/gps_summary"
+            android:title="@string/attGps" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="NETWORK"
+            android:summary="@string/network_summary"
+            android:title="@string/attNetwork" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="BUSSOLA"
+            android:summary="@string/bussola_summary"
+            android:title="@string/attBussola" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="COORDINATE"
+            android:summary="@string/coordinate_summary"
+            android:title="@string/attCoordinate" />
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="Impostazioni di Ricerca" >
+        <SeekBarPreference
+            android:defaultValue="20"
+            android:key="raySearch"
+            android:persistent="true"
+            android:dialogTitle="@string/seek_dialog_title"
+            android:title="Imposta Raggio di ricerca" 
+            android:summary="@string/seek_summary">
+        </SeekBarPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

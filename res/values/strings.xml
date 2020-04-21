@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <string name="app_name">AR FUB</string>
+    
+    <string name="VistaAR3">Vista3</string>
+    <string name="Maps2">Mappa2</string>
+    <string name="Esco1">Esci</string>
+    
+    <string name="Ricerca">Citta, luogo, indirizzo da ricercare</string>
+    <string name="yourLocation">La locazione rilevata è:</string>
+    <string name="loadLocation">Carica Locazione</string>
+    <string name="GoOn">Avanti</string>
+    
+    <string name="keyW"></string>
+    <string name="keyA"></string>
+        
+    <string name="Wikipedia">WIKIPEDIA</string>
+    <string name="Fub">FUB</string>
+    <string name="openStreetMap">OPEN STREET MAP</string>
+    <string name="twitter">TWITTER</string>
+     <string name="personalPOIs">POI Personali</string>
+    
+    
+    <string name="wikipedia_summary">Recupera risorse da Wikipedia</string>
+    <string name="fub_summary">Recupera risorse dal nostro server</string>
+    <string name="open_street_map_summary">Recupera risorse da Open Street Map</string>
+    <string name="twitter_summary">Recupera risorse da Twitter</string>    
+     <string name="personalpois_summary">Recupera risorse dai POI personali</string>    
+    
+    <string name="testo">TESTO</string>
+    <string name="testoImage">TESTO + IMMAGINI</string>
+    <string name="testoImageVideo">TESTO + IMMAGINI + VIDEO(se possibile)</string>
+    
+    <string name="Maplabel">Mappa</string>
+    <string name="ARlabel">AR view</string>
+    <string name="credits_label">Crediti</string>
+    
+    <string name="GoNextResource">Vai alla risorsa successiva</string>
+    <string name="GoPrevResource">Vai alla risorsa precedente</string>
+    
+    
+    <string name="modMappa_label">Stile MAPPA</string>
+    <string name="modMappa_shortcut">ModMap shortcut</string>
+    
+    <string name="toMapView_label">Modalità Mappa</string>
+    <string name="toMapView_shortcut">Map shortcut</string>
+    
+    <string name="settings_label">Impostazioni</string>
+	<string name="settings_shortcut">i</string> 
+	<string name="settings2_shortcut">ii</string> 
+	<string name="myLoc_shortcut">iii</string> 
+	
+	<string name="toArView_shortcut">toArView</string>
+	<string name="toArView_label">Modalità AR</string>
+	
+	<string name="attGps">Attivazione GPS</string>
+	<string name="attBussola">Attivazione BUSSOLA</string>
+	<string name="attRadar">Attivazione RADAR</string>
+	<string name="attCoordinate">Attivazione COORDINATE</string>
+	<string name="attNetwork">Attivazione NETWORK</string>
+	
+	<string name="gps_summary">Attiva la localizzazione tramite GPS</string>
+	<string name="bussola_summary">Attiva nel RADAR i 4 punti cardinali</string>
+	<string name="radar_summary">Attiva su schermo lo strumento RADAR</string>
+	<string name="coordinate_summary">Attiva la visualizzazione delle coordinate</string>
+	<string name="network_summary">Attiva la localizzazione tramite NETWORK</string>
+	
+		
+	<string name="imageAdapter">Adattatore Immagine</string>
+	<string name="imageListManager">Manager delle foto</string>
+	<string name="resultManager">Risultato</string>
+	<string name="overlayManager">overlay Manager</string>
+	<string name="resultView">Risultato:</string>
+	<string name="overlay">overlay</string>
+	<string name="myLoc">Saved POI</string>
+	<string name="editPoi">Editing POI</string>
+	<string name="fotoviewer">Foto</string>
+	
+	<string name="modMap">Modalità Mappa</string>
+	<string name="mapStyle_shortcut">mapStyle_shortcut</string>
+	<string name="modSat">Modalità Satellite</string>	
+	<string name="modTraffic">Modalità Traffico</string>
+	<string name="modStreet">Modalità Street View</string>	
+	
+	<string name="strati_shortcut">Livelli di interesse</string>	
+	<string name="strati_label">Livelli</string>	
+	
+	<string name="myPosition_shortcut">myPosition_shortcut</string>
+	<string name="myPosition_label">La mia posizione</string>
+	
+	<string name="seek_summary">Raggio di 2 km</string>
+	<string name="seek_dialog_title">Raggio di ricerca (km)</string>
+    
+	<string name="webBrowser">Web Browser</string>
+	<string name="stop">Stop</string>
+	<string name="default_url">inserire url</string>
+	<string name="reload">Ricarica</string>
+	
+	<string name="save">Salvataggio</string>
+	<string name="takeafoto">Scatta una foto</string>
+	<string name="addNewPOI">Aggiungi un nuovo POI</string>
+	<string name="newPoi">Nuovo POI</string>
+	
+</resources>

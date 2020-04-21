@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="datasourcelist">
+        <item>@string/Wikipedia</item>
+        <item>@string/Fub</item>
+        <item>@string/twitter</item>
+        <item>@string/openStreetMap</item>
+    </string-array>
+    <string-array name="displaytypelist">
+        <item>@string/testo</item>
+        <item>@string/testoImage</item>
+        <item>@string/testoImageVideo</item>
+    </string-array>
+
+</resources>

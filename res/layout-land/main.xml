@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/logofub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:src="@drawable/fub_logo_small2" />
+
+    <ImageButton
+        android:id="@+id/Esco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Maps"
+        android:background="@null"
+        android:src="@drawable/exit_logo" />
+
+    <ImageButton
+        android:id="@+id/VistaAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Esco"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/arviewer_logo" />
+
+    <ImageButton
+        android:id="@+id/Maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextMap"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:src="@drawable/mappa_logo" />
+
+    <ImageButton
+        android:id="@+id/roma3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:src="@drawable/romatre_logo_small2" />
+
+    <TextView
+        android:id="@+id/TextCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/roma3"
+        android:background="#00000000"
+        android:text="Credits"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Textvista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:text="AReality"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextEsco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Esco"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:text="Exit"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:text="Mappa"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AppTitolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/VistaAR"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:text="AR Fub"
+        android:textColor="#ffffff"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.arFub"
+    android:versionCode="44"
+    android:versionName="4.4" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+    />
+
+    <application
+        android:icon="@drawable/fub_logo_small"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".AR_appActivity"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        
+        <activity
+            android:name="it.ar.AR_Viewer"
+            android:label="@string/ARlabel"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="it.map.MapManager2"
+            android:label="@string/Maplabel"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+ >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+>
+        </activity>
+        
+        <activity
+            android:name="it.result.WebBrowser"
+            android:label="@string/webBrowser" >
+        </activity>
+        
+        <activity
+            android:name="it.map.ItemOverlayMap"
+            android:label="@string/overlay" >
+        </activity>
+        <activity
+            android:name="it.map.SettingsMap"
+            android:label="@string/settings_label" >
+        </activity>
+        <activity
+            android:name="it.arFub.Credits"
+            android:label="@string/credits_label" >
+        </activity>
+        <activity
+            android:name="it.map.Layars"
+            android:label="@string/strati_label" >
+        </activity>
+        
+        <activity
+            android:name="it.ar.Settings_AR"
+            android:label="@string/settings_label" >
+        </activity>
+        <activity
+            android:name="it.result.ImageAdapter"
+            android:label="@string/imageAdapter" >
+        </activity>
+        <activity
+            android:name="it.result.ImageListManager"
+            android:label="@string/imageListManager" >
+        </activity>
+        <activity
+            android:name="it.result.ResultView"
+            android:label="@string/resultView" >
+        </activity>
+       
+         <activity
+            android:name="it.result.My_location"
+            android:label="@string/myLoc" >
+        </activity>
+         <activity
+            android:name="it.result.EditPOI"
+            android:label="@string/editPoi" >
+        </activity>
+         <activity
+            android:name="it.dataSource.CreateNewPOI"
+            android:label="@string/newPoi" >
+        </activity>
+        <activity
+            android:name="it.result.FotoViewer"
+            android:label="@string/fotoviewer" >
+        </activity>
+          <activity
+            android:name="com.wikitude.tools.activities.MediaPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+      
+    </application>
+
+</manifest>

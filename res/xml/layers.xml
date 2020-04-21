@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="WIKIPEDIA"
+            android:summary="@string/wikipedia_summary"
+            android:title="@string/Wikipedia" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="FUB"
+            android:summary="@string/fub_summary"
+            android:title="@string/Fub" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="OPEN_STREET_MAP"
+            android:summary="@string/open_street_map_summary"
+            android:title="@string/openStreetMap" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="TWITTER"
+            android:summary="@string/twitter_summary"
+            android:title="@string/twitter" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Personal_POIs"
+            android:summary="@string/personalpois_summary"
+            android:title="@string/personalPOIs" />
+   
+
+</PreferenceScreen>

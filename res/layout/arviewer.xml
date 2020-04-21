@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/arviewerlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#82E0FF" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal"
+        android:text="AR-Viewer"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <com.wikitude.architect.ArchitectView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:wikitude="http://schemas.android.com/apk/res/it.arFub"
+        android:id="@+id/architectView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:configChanges="orientation"
+        android:keepScreenOn="true" />
+
+    <ImageButton
+        android:id="@+id/takeAFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5px"
+        android:layout_marginBottom="5px"
+        android:background="@null"
+        android:src="@drawable/fotocamer"
+        android:text="@string/takeafoto"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

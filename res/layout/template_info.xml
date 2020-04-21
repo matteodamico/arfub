@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" 
+    android:background="@drawable/arrugginito">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        > 
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#FFF00000" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Nome Oggetto"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="23dp" 
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/categoria"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:src="@drawable/play_butt" />
+
+        <TextView
+            android:id="@+id/descrizione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:text="Descrizione:"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView1"
+            android:text="categoria"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/descrizioneRisorsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descrizione"
+            android:maxLines="10"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:editable="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical"
+            android:textSize="18sp"
+            android:text="io descrivo" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/displaytypeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descrizioneRisorsa"
+            android:text="Mostra"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/displaytype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displaytypeLabel"
+            android:entries="@array/displaytypelist" >
+        </Spinner>
+
+        <ImageButton
+            android:id="@+id/fotobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_below="@+id/displaytype"
+            android:src="@android:drawable/btn_star" />
+
+        <VideoView
+           
+            android:id="@+id/videoInfoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fotobutton" >
+        </VideoView>
+<ImageButton
+            android:id="@+id/saveToPref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/videoInfoView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/save"
+            android:src="@drawable/stella_emp2"
+            android:textSize="15dp"
+            android:background="@null"
+            android:textStyle="bold" />
+        
+        <ImageButton
+            android:id="@+id/buttonGoPrevResource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/videoInfoView"
+            android:text="@string/GoPrevResource"
+            android:src="@drawable/prev_butt"
+            android:textSize="15dp"
+            android:background="@null"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/buttonGoNextResource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/videoInfoView"
+            android:text="@string/GoNextResource"
+            android:background="@null"
+            android:src="@drawable/next_butt"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

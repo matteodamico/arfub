@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/toMapView"
+        android:alphabeticShortcut="@string/toMapView_shortcut"
+        android:icon="@drawable/mappa_icon_menu"
+        android:title="@string/toMapView_label"/>
+    <item
+        android:id="@+id/settings"
+        android:alphabeticShortcut="@string/settings_shortcut"
+        android:icon="@drawable/settings_icon_menu"
+        android:title="@string/settings_label"/>
+    <item
+        android:id="@+id/strati"
+        android:alphabeticShortcut="@string/strati_shortcut"
+        android:icon="@drawable/layars_icon_menu"
+        android:title="@string/strati_label"/>
+    <item
+        android:id="@+id/myloc"
+        android:alphabeticShortcut="@string/myLoc_shortcut"
+        android:icon="@drawable/saved_places_icon_menu"
+        android:title="@string/myLoc"/>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mapStyle"
+        android:alphabeticShortcut="@string/mapStyle_shortcut"
+        android:orderInCategory="2"
+        android:title="@string/modMap"
+        android:icon="@drawable/mapstyle_icon_menu">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/modMap"
+                    android:title="@string/modMap" android:checked="true"/>
+                <item
+                    android:id="@+id/modTraffic"
+                    android:title="@string/modTraffic" android:checked="false"/>
+                <item
+                    android:id="@+id/modSat"
+                    android:title="@string/modSat" android:checked="false"/>
+                <item
+                    android:id="@+id/modStreet"
+                    android:title="@string/modStreet" android:checked="false"/>
+            </group>
+        </menu>
+    </item>
+        <item 
+        android:id="@+id/MyPosition"
+        android:alphabeticShortcut="@string/myPosition_shortcut"
+        android:icon="@drawable/myposition_icon_menu"
+        android:title="@string/myPosition_label"/>
+     <item 
+        android:id="@+id/strati"
+        android:alphabeticShortcut="@string/strati_shortcut"
+        android:icon="@drawable/layars_icon_menu"
+        android:title="@string/strati_label"/>
+    
+    <item
+        android:id="@+id/toArView"
+        android:alphabeticShortcut="@string/toArView_shortcut"
+        android:title="@string/toArView_label"
+        android:icon="@drawable/arview_icon_menu"/>
+    <item
+        android:id="@+id/settings2"
+        android:alphabeticShortcut="@string/settings2_shortcut"
+        android:icon="@drawable/settings_icon_menu"
+        android:title="@string/settings_label"/>
+
+</menu>
